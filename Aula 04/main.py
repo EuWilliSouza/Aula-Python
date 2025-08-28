@@ -8,6 +8,14 @@ if media >= 70:
     
 elif media >= 50:
     print("Recuperação")
+    recuperacao = int(input("Digite a nota de recuperação: "))
+    mediaRecuperacao = (media + recuperacao ) / 2
     
+    if mediaRecuperacao >= 70:
+        print("Aprovado")
+    else:
+        print("Recuperação")
+
+       
 else:
     print("Reprovado")
