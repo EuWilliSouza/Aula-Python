@@ -29,8 +29,13 @@
 # ano_conclusao - 2026
 
 Estudantes = { 
-         "Nome" : "Harry",
-         "Idade" : 17,
-         "Matricula" : "123",         
+         "Nome" : input("Digite seu nome: "),
+         "Idade" : int(input("Digite sua idade")),
+         "Matricula" : int(input("Digite sua matricula")),         
          }
-if
+
+if Estudantes["Matricula"] != 0:
+    Estudantes["Ano de ingresso"] = int(input("Digite o ano de ingresso: "))
+    Estudantes["Duração"] = int(input("Digite o tempo de duração: "))
+    
+    previsao
